@@ -110,7 +110,8 @@
       $("#bid").val("");
       $("#price").val("");
       var pl=$(".plname").html();
-      $("."+name).append("<h5>"+pl+"</h5>");
+      var plr=$(".plrating").html();
+      $("."+name).append("<h5>"+pl+" "+plr+"</h5>");
       var a=$("."+name).find(".budget").html();
       a=a-price;
       $("."+name).find(".budget").html(a);
