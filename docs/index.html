@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=5"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+
+  <title>FIFA AUCTION</title>
+  <style>
+
+  body {
+    align-items: center;
+    text-align: center;
+  }
+  .col-md-2 {
+    padding: 5px 0px;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+  }
+
+  .wrapper {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .np {
+    cursor: pointer;
+    padding: 10px 20px;
+    border:  1px solid black;
+    width: 150px;
+    background: green;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Tier <span class="tier">1</span></h1>
+    <h3>Name : <span class="plname"></span></h3>
+    <h3>Rating : <span class="plrating"></span></h3>
+    <h3>Position : <span class="plpos"></span></h3>
+    <h3>Base Price : <span class="plprice"></span></h3>
+    <div class="np">Next Player</div>
+  </div>
+
+  <div class="form" style="margin-bottom: 20px;">
+    <label for="bid">Bidder:</label>
+    <input list="bidder" name="bid" id="bid">
+    <datalist id="bidder">
+      <option value="Shubham"></option>
+      <option value="Sanial"></option>
+      <option value="Shreedhar"></option>
+      <option value="Javeed"></option>
+      <option value="Arsh"></option>
+      <option value="Rahul"></option>
+    </datalist>
+    <label for="price">Bid:</label>
+    <input type="number" name="price" id="price">
+    <input type="submit" class="submit">
+  </div>
+
+  <div class="container-fluid" style="padding: 20px">
+    <div class="row">
+      <div class="col-md-2 Shubham">
+        <h3 style="border-bottom: 1px solid black; padding-bottom: 5px;">Shubham</h3>
+        <h4 class="budget">1400000</h4>
+      </div>
+      <div class="col-md-2 Sanial">
+        <h3 style="border-bottom: 1px solid black; padding-bottom: 5px;">Sanial</h3>
+        <h4 class="budget">1400000</h4>
+      </div>
+      <div class="col-md-2 Shreedhar">
+        <h3 style="border-bottom: 1px solid black; padding-bottom: 5px;">Shreedhar</h3>
+        <h4 class="budget">1400000</h4>
+      </div>
+      <div class="col-md-2 Javeed">
+        <h3 style="border-bottom: 1px solid black; padding-bottom: 5px;">Javeed</h3>
+        <h4 class="budget">1400000</h4>
+      </div>
+      <div class="col-md-2 Arsh">
+        <h3 style="border-bottom: 1px solid black; padding-bottom: 5px;">Arsh</h3>
+        <h4 class="budget">1400000</h4>
+      </div>
+      <div class="col-md-2 Rahul">
+        <h3 style="border-bottom: 1px solid black; padding-bottom: 5px;">Rahul</h3>
+        <h4 class="budget">1400000</h4>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $(".submit").click(function(){
+      var name=$("#bid").val();
+      var price = $("#price").val();
+      $("#bid").val("");
+      $("#price").val("");
+      var pl=$(".plname").html();
+      $("."+name).append("<h5>"+pl+"</h5>");
+      var a=$("."+name).find(".budget").html();
+      a=a-price;
+      $("."+name).find(".budget").html(a);
+    })
+
+
+
+
+    var t1=[{name:"R.Lewandoski",pos:"ST",rating:"92"},{name:"L. Messi",pos:"RW/RM",rating:"93"},{name:"Oblak",pos:"GK",rating:"91"},{name:"De Bruyne",pos:"CM",rating:"91"},{name:"Neymar",pos:"LW/LM",rating:"91"},{name:"K.Mbappe",pos:"ST",rating:"91"},{name:"C.Ronaldo",pos:"ST",rating:"91"},{name:"Kante",pos:"CDM",rating:"90"},{name:"Neuer",pos:"GK",rating:"90"},{name:"Ter Stegen",pos:"GK",rating:"90"},{name:"H.Kane",pos:"ST",rating:"90"}]
+
+    var t2=[{name:"Ederson",pos:"GK",rating:"89"},{name:"Courtois",pos:"GK",rating:"89"},{name:"Alisson",pos:"GK",rating:"89"},{name:"Donnarumma",pos:"GK",rating:"89"},{name:"Van Dijk",pos:"CB",rating:"89"},{name:"Casemiro",pos:"CDM",rating:"89"},{name:"Kimmich",pos:"CDM",rating:"89"},{name:"M. Salah",pos:"RW/RM",rating:"89"},{name:"Heung Min Son",pos:"LW/LM",rating:"89"},{name:"Sadio Mane",pos:"LW/LM",rating:"89"},{name:"K.Benzema",pos:"ST",rating:"89"},{name:"Navas",pos:"GK",rating:"88"},{name:"Sergio Ramos",pos:"CB",rating:"88"},{name:"Toni Kroos",pos:"CM",rating:"88"},{name:"B. Fernandes",pos:"CAM",rating:"88"},{name:"R. Sterling",pos:"LW/LM",rating:"88"},{name:"R.Lukaku",pos:"ST",rating:"88"},{name:"E.Haaland",pos:"ST",rating:"88"},{name:"L.Suarez",pos:"ST",rating:"88"},{name:"Szczesny",pos:"GK",rating:"87"},{name:"Lloris",pos:"GK",rating:"87"},{name:"Trent Arnold",pos:"RB",rating:"87"},{name:"Ruben Dias",pos:"CB",rating:"87"},{name:"Marquinhos",pos:"CB",rating:"87"},{name:"Andy Robertson",pos:"LB",rating:"87"},{name:"Luka Modric",pos:"CM",rating:"87"},{name:"Paul Pogba",pos:"CM",rating:"87"},{name:"Marco Veratti",pos:"CM",rating:"87"},{name:"F.De Jong",pos:"CM",rating:"87"},{name:"Goretzka",pos:"CM",rating:"87"},{name:"Muller",pos:"CAM",rating:"87"},{name:"Jadon Sancho",pos:"RW/RM",rating:"87"},{name:"Di Maria",pos:"RW/RM",rating:"87"},{name:"S.Aguero",pos:"ST",rating:"87"},{name:"P.Dybala",pos:"ST",rating:"87"}]
+
+    var t3=[{name:"Cancelo",pos:"RB",rating:"86"},{name:"Milan Skriniar",pos:"CB",rating:"86"},{name:"Mats Hummels",pos:"CB",rating:"86"},{name:"Laporte",pos:"CB",rating:"86"},{name:"Raphael Varane",pos:"CB",rating:"86"},{name:"Koulibaly",pos:"CB",rating:"86"},{name:"Chiellini",pos:"CB",rating:"86"},{name:"Jordi Alba",pos:"LB",rating:"86"},{name:"Rodri",pos:"CDM",rating:"86"},{name:"S. Busquets",pos:"CDM",rating:"86"},{name:"Fabinho",pos:"CDM",rating:"86"},{name:"Marcos llorente",pos:"CM",rating:"86"},{name:"B.Silva",pos:"CAM",rating:"86"},{name:"R. Mahrez",pos:"RW/RM",rating:"86"},{name:"K. Coman",pos:"LW/LM",rating:"86"},{name:"Insigne",pos:"LW/LM",rating:"86"},{name:"Parejo",pos:"CM",rating:"86"},{name:"Thiago",pos:"CM",rating:"86"},{name:"Carvajal",pos:"RB",rating:"85"},{name:"Kyle Walker",pos:"RB",rating:"85"},{name:"Hakimi",pos:"RB",rating:"85"},{name:"Ndidi",pos:"CDM",rating:"85"},{name:"Maro Reus",pos:"CAM",rating:"85"},{name:"David Silva",pos:"CAM",rating:"85"},{name:"A. Gomez",pos:"CAM",rating:"85"},{name:"S. Gnabry",pos:"RW/RM",rating:"85"},{name:"Eden Hazard",pos:"LW/LM",rating:"85"},{name:"M.Oyarzabal",pos:"LW/LM",rating:"85"},{name:"M.Rashford",pos:"LW/LM",rating:"85"},{name:"Trippier",pos:"RB",rating:"84"},{name:"Jesus Navas",pos:"RB",rating:"84"},{name:"Ricardo pereira",pos:"RB",rating:"84"},{name:"Hernandez",pos:"LB",rating:"84"},{name:"R Guerreiro",pos:"LB",rating:"84"},{name:"Luke Shaw",pos:"LB",rating:"84"},{name:"Lucas Digne",pos:"LB",rating:"84"},{name:"Marcos Acuna",pos:"LB",rating:"84"},{name:"Brozovic",pos:"CDM",rating:"84"},{name:"F Kessie",pos:"CDM",rating:"84"},{name:"J Henderson",pos:"CDM",rating:"84"},{name:"Kai Havertz",pos:"CAM",rating:"84"},{name:"P Foden",pos:"CAM",rating:"84"},{name:"Luis Alberto",pos:"CAM",rating:"84"},{name:"Nabil Fekir",pos:"CAM",rating:"84"},{name:"Ziyech",pos:"RW/RM",rating:"84"},{name:"L. Sane",pos:"RW/RM",rating:"84"},{name:"Y.Carrasco",pos:"LW/LM",rating:"84"},{name:"",pos:"",rating:""},{name:"",pos:"",rating:""}]
+
+    tier1();
+
+    $(".np").click(function(){
+      if(t2.length>0)
+      tier2();
+    else
+      console.log("finish")
+    })
+
+    function tier2() {
+      var i = Math.floor(Math.random() * t2.length);
+      $(".plname").html(t2[i].name);
+      $(".plpos").html(t2[i].pos);
+      $(".plrating").html(t2[i].rating);
+      $(".plprice").html("25000");
+      t2.splice(i,1);
+    }
+
+    function tier1() {
+      var i = Math.floor(Math.random() * t1.length);
+      $(".plname").html(t1[i].name);
+      $(".plpos").html(t1[i].pos);
+      $(".plrating").html(t1[i].rating);
+      $(".plprice").html("50000");
+      t1.splice(i,1);
+    }
+
+  </script>
+</body>
+</html>
