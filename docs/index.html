@@ -45,7 +45,7 @@
 <body>
 
   <div class="wrapper">
-    <h1>Tier <span class="tier">1</span></h1>
+    <h1>Tier <span class="tier"></span></h1>
     <h3>Name : <span class="plname"></span></h3>
     <h3>Rating : <span class="plrating"></span></h3>
     <h3>Position : <span class="plpos"></span></h3>
@@ -123,19 +123,48 @@
 
     var t2=[{name:"Ederson",pos:"GK",rating:"89"},{name:"Courtois",pos:"GK",rating:"89"},{name:"Alisson",pos:"GK",rating:"89"},{name:"Donnarumma",pos:"GK",rating:"89"},{name:"Van Dijk",pos:"CB",rating:"89"},{name:"Casemiro",pos:"CDM",rating:"89"},{name:"Kimmich",pos:"CDM",rating:"89"},{name:"M. Salah",pos:"RW/RM",rating:"89"},{name:"Heung Min Son",pos:"LW/LM",rating:"89"},{name:"Sadio Mane",pos:"LW/LM",rating:"89"},{name:"K.Benzema",pos:"ST",rating:"89"},{name:"Navas",pos:"GK",rating:"88"},{name:"Sergio Ramos",pos:"CB",rating:"88"},{name:"Toni Kroos",pos:"CM",rating:"88"},{name:"B. Fernandes",pos:"CAM",rating:"88"},{name:"R. Sterling",pos:"LW/LM",rating:"88"},{name:"R.Lukaku",pos:"ST",rating:"88"},{name:"E.Haaland",pos:"ST",rating:"88"},{name:"L.Suarez",pos:"ST",rating:"88"},{name:"Szczesny",pos:"GK",rating:"87"},{name:"Lloris",pos:"GK",rating:"87"},{name:"Trent Arnold",pos:"RB",rating:"87"},{name:"Ruben Dias",pos:"CB",rating:"87"},{name:"Marquinhos",pos:"CB",rating:"87"},{name:"Andy Robertson",pos:"LB",rating:"87"},{name:"Luka Modric",pos:"CM",rating:"87"},{name:"Paul Pogba",pos:"CM",rating:"87"},{name:"Marco Veratti",pos:"CM",rating:"87"},{name:"F.De Jong",pos:"CM",rating:"87"},{name:"Goretzka",pos:"CM",rating:"87"},{name:"Muller",pos:"CAM",rating:"87"},{name:"Jadon Sancho",pos:"RW/RM",rating:"87"},{name:"Di Maria",pos:"RW/RM",rating:"87"},{name:"S.Aguero",pos:"ST",rating:"87"},{name:"P.Dybala",pos:"ST",rating:"87"}]
 
-    var t3=[{name:"Cancelo",pos:"RB",rating:"86"},{name:"Milan Skriniar",pos:"CB",rating:"86"},{name:"Mats Hummels",pos:"CB",rating:"86"},{name:"Laporte",pos:"CB",rating:"86"},{name:"Raphael Varane",pos:"CB",rating:"86"},{name:"Koulibaly",pos:"CB",rating:"86"},{name:"Chiellini",pos:"CB",rating:"86"},{name:"Jordi Alba",pos:"LB",rating:"86"},{name:"Rodri",pos:"CDM",rating:"86"},{name:"S. Busquets",pos:"CDM",rating:"86"},{name:"Fabinho",pos:"CDM",rating:"86"},{name:"Marcos llorente",pos:"CM",rating:"86"},{name:"B.Silva",pos:"CAM",rating:"86"},{name:"R. Mahrez",pos:"RW/RM",rating:"86"},{name:"K. Coman",pos:"LW/LM",rating:"86"},{name:"Insigne",pos:"LW/LM",rating:"86"},{name:"Parejo",pos:"CM",rating:"86"},{name:"Thiago",pos:"CM",rating:"86"},{name:"Carvajal",pos:"RB",rating:"85"},{name:"Kyle Walker",pos:"RB",rating:"85"},{name:"Hakimi",pos:"RB",rating:"85"},{name:"Ndidi",pos:"CDM",rating:"85"},{name:"Maro Reus",pos:"CAM",rating:"85"},{name:"David Silva",pos:"CAM",rating:"85"},{name:"A. Gomez",pos:"CAM",rating:"85"},{name:"S. Gnabry",pos:"RW/RM",rating:"85"},{name:"Eden Hazard",pos:"LW/LM",rating:"85"},{name:"M.Oyarzabal",pos:"LW/LM",rating:"85"},{name:"M.Rashford",pos:"LW/LM",rating:"85"},{name:"Trippier",pos:"RB",rating:"84"},{name:"Jesus Navas",pos:"RB",rating:"84"},{name:"Ricardo pereira",pos:"RB",rating:"84"},{name:"Hernandez",pos:"LB",rating:"84"},{name:"R Guerreiro",pos:"LB",rating:"84"},{name:"Luke Shaw",pos:"LB",rating:"84"},{name:"Lucas Digne",pos:"LB",rating:"84"},{name:"Marcos Acuna",pos:"LB",rating:"84"},{name:"Brozovic",pos:"CDM",rating:"84"},{name:"F Kessie",pos:"CDM",rating:"84"},{name:"J Henderson",pos:"CDM",rating:"84"},{name:"Kai Havertz",pos:"CAM",rating:"84"},{name:"P Foden",pos:"CAM",rating:"84"},{name:"Luis Alberto",pos:"CAM",rating:"84"},{name:"Nabil Fekir",pos:"CAM",rating:"84"},{name:"Ziyech",pos:"RW/RM",rating:"84"},{name:"L. Sane",pos:"RW/RM",rating:"84"},{name:"Y.Carrasco",pos:"LW/LM",rating:"84"},{name:"",pos:"",rating:""},{name:"",pos:"",rating:""}]
+    var t3=[{name:"Cancelo",pos:"RB",rating:"86"},{name:"Milan Skriniar",pos:"CB",rating:"86"},{name:"Mats Hummels",pos:"CB",rating:"86"},{name:"Laporte",pos:"CB",rating:"86"},{name:"Raphael Varane",pos:"CB",rating:"86"},{name:"Koulibaly",pos:"CB",rating:"86"},{name:"Chiellini",pos:"CB",rating:"86"},{name:"Jordi Alba",pos:"LB",rating:"86"},{name:"Rodri",pos:"CDM",rating:"86"},{name:"S. Busquets",pos:"CDM",rating:"86"},{name:"Fabinho",pos:"CDM",rating:"86"},{name:"Marcos llorente",pos:"CM",rating:"86"},{name:"B.Silva",pos:"CAM",rating:"86"},{name:"R. Mahrez",pos:"RW/RM",rating:"86"},{name:"K. Coman",pos:"LW/LM",rating:"86"},{name:"Insigne",pos:"LW/LM",rating:"86"},{name:"Parejo",pos:"CM",rating:"86"},{name:"Thiago",pos:"CM",rating:"86"},{name:"Carvajal",pos:"RB",rating:"85"},{name:"Kyle Walker",pos:"RB",rating:"85"},{name:"Hakimi",pos:"RB",rating:"85"},{name:"Ndidi",pos:"CDM",rating:"85"},{name:"Maro Reus",pos:"CAM",rating:"85"},{name:"David Silva",pos:"CAM",rating:"85"},{name:"A. Gomez",pos:"CAM",rating:"85"},{name:"S. Gnabry",pos:"RW/RM",rating:"85"},{name:"Eden Hazard",pos:"LW/LM",rating:"85"},{name:"M.Oyarzabal",pos:"LW/LM",rating:"85"},{name:"M.Rashford",pos:"LW/LM",rating:"85"},{name:"Trippier",pos:"RB",rating:"84"},{name:"Jesus Navas",pos:"RB",rating:"84"},{name:"Ricardo pereira",pos:"RB",rating:"84"},{name:"Hernandez",pos:"LB",rating:"84"},{name:"R Guerreiro",pos:"LB",rating:"84"},{name:"Luke Shaw",pos:"LB",rating:"84"},{name:"Lucas Digne",pos:"LB",rating:"84"},{name:"Marcos Acuna",pos:"LB",rating:"84"},{name:"Brozovic",pos:"CDM",rating:"84"},{name:"F Kessie",pos:"CDM",rating:"84"},{name:"J Henderson",pos:"CDM",rating:"84"},{name:"Kai Havertz",pos:"CAM",rating:"84"},{name:"P Foden",pos:"CAM",rating:"84"},{name:"Luis Alberto",pos:"CAM",rating:"84"},{name:"Nabil Fekir",pos:"CAM",rating:"84"},{name:"Ziyech",pos:"RW/RM",rating:"84"},{name:"L. Sane",pos:"RW/RM",rating:"84"},{name:"Y.Carrasco",pos:"LW/LM",rating:"84"},{name:"Juan Cuadrado",pos:"RB",rating:"83"},{name:"Wan Bissaka",pos:"RB",rating:"83"},{name:"Ferlan Mendy",pos:"LB",rating:"83"},{name:"Angelino",pos:"LB",rating:"83"},{name:"L. Hernandez",pos:"LB",rating:"83"},{name:"M. Asensio",pos:"RW/RM",rating:"83"},{name:"F. Chiesa",pos:"RW/RM",rating:"83"},{name:"Thiago Silva",pos:"CB",rating:"85"},{name:"M De Ligt",pos:"CB",rating:"85"}]
 
     tier1();
+    var prev=1;
+    var count=0;
+
+    function nextpl() {
+      if(prev==1)
+      {
+        prev=2;
+        tier2();
+      }
+      else if(prev==2)
+      {
+        prev=3;
+        tier3();
+      }
+      else if(prev==3)
+      {
+        if(t1.length>0)
+          {
+            prev=1;
+            tier1();
+          }
+        else if(t2.length>0)
+          {
+            prev=2;
+            tier2();
+          }
+          else
+            tier3();
+      }
+    }
 
     $(".np").click(function(){
-      if(t2.length>0)
-      tier2();
-    else
-      console.log("finish")
+      console.log(count);
+      nextpl();
     })
 
-    function tier2() {
+    function tier2() {count++;
       var i = Math.floor(Math.random() * t2.length);
+      $(".tier").html("2");
       $(".plname").html(t2[i].name);
       $(".plpos").html(t2[i].pos);
       $(".plrating").html(t2[i].rating);
@@ -143,8 +172,21 @@
       t2.splice(i,1);
     }
 
+    function tier3() {
+      count++;
+      var i = Math.floor(Math.random() * t3.length);
+      $(".tier").html("3");
+      $(".plname").html(t3[i].name);
+      $(".plpos").html(t3[i].pos);
+      $(".plrating").html(t3[i].rating);
+      $(".plprice").html("10000");
+      t3.splice(i,1);
+    }
+
     function tier1() {
+      count++;
       var i = Math.floor(Math.random() * t1.length);
+      $(".tier").html("1");
       $(".plname").html(t1[i].name);
       $(".plpos").html(t1[i].pos);
       $(".plrating").html(t1[i].rating);
