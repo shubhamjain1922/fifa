@@ -1,0 +1,152 @@
+var t3 = [
+ {
+  "pos": "GK",
+  "name": "Lloris",
+  "rating": 87
+ },
+ {
+  "pos": "GK",
+  "name": "Szczesny",
+  "rating": 87
+ },
+ {
+  "pos": "RB",
+  "name": "Trent Arnold",
+  "rating": 87
+ },
+ {
+  "pos": "CB",
+  "name": "Ruben Dias",
+  "rating": 87
+ },
+ {
+  "pos": "CB",
+  "name": "Marquinhos",
+  "rating": 87
+ },
+ {
+  "pos": "LB",
+  "name": "Andy Robertson",
+  "rating": 87
+ },
+ {
+  "pos": "CM",
+  "name": "Luka Modric",
+  "rating": 87
+ },
+ {
+  "pos": "CM",
+  "name": "Paul Pogba",
+  "rating": 87
+ },
+ {
+  "pos": "CM",
+  "name": "Marco Veratti",
+  "rating": 87
+ },
+ {
+  "pos": "CM",
+  "name": "F.De Jong",
+  "rating": 87
+ },
+ {
+  "pos": "CM",
+  "name": "Goretzka",
+  "rating": 87
+ },
+ {
+  "pos": "CAM",
+  "name": "Muller",
+  "rating": 87
+ },
+ {
+  "pos": "RW\/RM",
+  "name": "Jadon Sancho",
+  "rating": 87
+ },
+ {
+  "pos": "RW\/RM",
+  "name": "Di Maria",
+  "rating": 87
+ },
+ {
+  "pos": "RB",
+  "name": "Cancelo",
+  "rating": 86
+ },
+ {
+  "pos": "CB",
+  "name": "Mats Hummels",
+  "rating": 86
+ },
+ {
+  "pos": "CB",
+  "name": "Laporte",
+  "rating": 86
+ },
+ {
+  "pos": "CB",
+  "name": "Raphael Varane",
+  "rating": 86
+ },
+ {
+  "pos": "CB",
+  "name": "Koulibaly",
+  "rating": 86
+ },
+ {
+  "pos": "CB",
+  "name": "Chiellini",
+  "rating": 86
+ },
+ {
+  "pos": "LB",
+  "name": "Jordi Alba",
+  "rating": 86
+ },
+ {
+  "pos": "CDM",
+  "name": "Rodri",
+  "rating": 86
+ },
+ {
+  "pos": "CDM",
+  "name": "S. Busquets",
+  "rating": 86
+ },
+ {
+  "pos": "CDM",
+  "name": "Fabinho",
+  "rating": 86
+ },
+ {
+  "pos": "CM",
+  "name": "Parejo",
+  "rating": 86
+ },
+ {
+  "pos": "CM",
+  "name": "Thiago",
+  "rating": 86
+ },
+ {
+  "pos": "CAM",
+  "name": "B.Silva",
+  "rating": 86
+ },
+ {
+  "pos": "RW\/RM",
+  "name": "R. Mahrez",
+  "rating": 86
+ },
+ {
+  "pos": "LW\/LM",
+  "name": "K. Coman",
+  "rating": 86
+ },
+ {
+  "pos": "LW\/LM",
+  "name": "Insigne",
+  "rating": 86
+ }
+]
