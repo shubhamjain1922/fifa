@@ -1,362 +1,102 @@
 var t1 = [
- {
-  "pos": "CF",
-  "name": "Pele",
-  "rating": 99
- },
- {
-  "pos": "CB",
-  "name": "Beckenbauer",
-  "rating": 98
- },
- {
-  "pos": "CF",
-  "name": "J. Cruyff",
-  "rating": 98
- },
- {
-  "pos": "CAM",
-  "name": "D. Maradona",
-  "rating": 98
- },
- {
-  "pos": "ST",
-  "name": "Ronaldo",
-  "rating": 97
- },
- {
-  "pos": "CAM",
-  "name": "Zidane",
-  "rating": 97
- },
- {
-  "pos": "CF",
-  "name": "Di Stefano",
-  "rating": 96
- },
- {
-  "pos": "ST",
-  "name": "Van Basten",
-  "rating": 96
- },
- {
-  "pos": "ST",
-  "name": "G Muller",
-  "rating": 95
- },
- {
-  "pos": "CAM",
-  "name": "B.Charlton",
-  "rating": 95
- },
- {
-  "pos": "CAM",
-  "name": "M.Platini",
-  "rating": 95
- },
- {
-  "pos": "CB",
-  "name": "F.Baresi",
-  "rating": 95
- },
- {
-  "pos": "ST",
-  "name": "F.Puskas",
-  "rating": 95
- },
- {
-  "pos": "RW",
-  "name": "Garrincha",
-  "rating": 95
- },
- {
-  "pos": "RW",
-  "name": "Ronaldinho",
-  "rating": 95
- },
- {
-  "pos": "CB",
-  "name": "P.Maldini",
-  "rating": 95
- },
- {
-  "pos": "GK",
-  "name": "L.Yashin",
-  "rating": 95
- },
- {
-  "pos": "GK",
-  "name": "I.Casillas",
-  "rating": 95
- },
- {
-  "pos": "ST",
-  "name": "Romario",
-  "rating": 94
- },
- {
-  "pos": "CAM",
-  "name": "Zico",
-  "rating": 94
- },
- {
-  "pos": "GK",
-  "name": "G.Banks",
-  "rating": 94
- },
- {
-  "pos": "ST",
-  "name": "T.Henry",
-  "rating": 94
- },
- {
-  "pos": "RW",
-  "name": "G.Best",
-  "rating": 94
- },
- {
-  "pos": "CF",
-  "name": "R.Baggio",
-  "rating": 94
- },
- {
-  "pos": "CF",
-  "name": "E.Cantona",
-  "rating": 94
- },
- {
-  "pos": "CF",
-  "name": "Eusebio",
-  "rating": 94
- },
- {
-  "pos": "CF",
-  "name": "R.Gullit",
-  "rating": 94
- },
- {
-  "pos": "CM",
-  "name": "Matthaus",
-  "rating": 94
- },
- {
-  "pos": "CM",
-  "name": "Xavi",
-  "rating": 94
- },
- {
-  "pos": "RB",
-  "name": "Carlos Alberto",
-  "rating": 94
- },
- {
-  "pos": "CM",
-  "name": "Yaya Toure",
-  "rating": 93
- },
- {
-  "pos": "CM",
-  "name": "Xabi Alonso",
-  "rating": 93
- },
- {
-  "pos": "CB",
-  "name": "J.Terry",
-  "rating": 93
- },
- {
-  "pos": "RB",
-  "name": "Cafu",
-  "rating": 93
- },
- {
-  "pos": "RB",
-  "name": "Dani Alves",
-  "rating": 93
- },
- {
-  "pos": "GK",
-  "name": "Oliver Kahn",
-  "rating": 93
- },
- {
-  "pos": "CAM",
-  "name": "M.Laudrup",
-  "rating": 93
- },
- {
-  "pos": "CAM",
-  "name": "Kaka",
-  "rating": 93
- },
- {
-  "pos": "ST",
-  "name": "Van Nilsteroy",
-  "rating": 93
- },
- {
-  "pos": "ST",
-  "name": "Stoichkov",
-  "rating": 93
- },
- {
-  "pos": "CF",
-  "name": "D.Bergkamp",
-  "rating": 93
- },
- {
-  "pos": "CAM",
-  "name": "Rivaldo",
-  "rating": 93
- },
- {
-  "pos": "CAM",
-  "name": "Raul",
-  "rating": 93
- },
- {
-  "pos": "LM",
-  "name": "R.Giggs",
-  "rating": 93
- },
- {
-  "pos": "CM",
-  "name": "Pirlo",
-  "rating": 93
- },
- {
-  "pos": "RM",
-  "name": "L.Figo",
-  "rating": 93
- },
- {
-  "pos": "RM",
-  "name": "D.Beckham",
-  "rating": 93
- },
- {
-  "pos": "LB",
-  "name": "Zanetti",
-  "rating": 93
- },
- {
-  "pos": "CB",
-  "name": "Puyol",
-  "rating": 93
- },
- {
-  "pos": "CB",
-  "name": "B.Moore",
-  "rating": 93
- },
- {
-  "pos": "CB",
-  "name": "A.Nesta",
-  "rating": 93
- },
- {
-  "pos": "CB",
-  "name": "F.Cannavaro",
-  "rating": 93
- },
- {
-  "pos": "GK",
-  "name": "P.Schmeichel",
-  "rating": 93
- },
- {
-  "pos": "CM",
-  "name": "P.Scholes",
-  "rating": 92
- },
- {
-  "pos": "CM",
-  "name": "Gerrard",
-  "rating": 92
- },
- {
-  "pos": "CM",
-  "name": "C.Seedorf",
-  "rating": 92
- },
- {
-  "pos": "CM",
-  "name": "P.Viera",
-  "rating": 92
- },
- {
-  "pos": "LB",
-  "name": "Roberto Carlos",
-  "rating": 92
- },
- {
-  "pos": "LB",
-  "name": "P.Lahm",
-  "rating": 92
- },
- {
-  "pos": "CB",
-  "name": "L.Blanc",
-  "rating": 92
- },
- {
-  "pos": "CB",
-  "name": "M.Desaily",
-  "rating": 92
- },
- {
-  "pos": "RW\/RM",
-  "name": "L. Messi",
-  "rating": 93
- },
- {
-  "pos": "ST",
-  "name": "R.Lewandoski",
-  "rating": 92
- },
- {
-  "pos": "GK",
-  "name": "Oblak",
-  "rating": 91
- },
- {
-  "pos": "CM",
-  "name": "De Bruyne",
-  "rating": 91
- },
- {
-  "pos": "LW\/LM",
-  "name": "Neymar",
-  "rating": 91
- },
- {
-  "pos": "ST",
-  "name": "K.Mbappe",
-  "rating": 91
- },
- {
-  "pos": "ST",
-  "name": "C.Ronaldo",
-  "rating": 91
- },
- {
-  "pos": "GK",
-  "name": "Neuer",
-  "rating": 90
- },
- {
-  "pos": "GK",
-  "name": "Ter Stegen",
-  "rating": 90
- },
- {
-  "pos": "CDM",
-  "name": "Kante",
-  "rating": 90
- },
- {
-  "pos": "ST",
-  "name": "H.Kane",
-  "rating": 90
- }
-]
+  {
+    "pos": "CF",
+    "name": "Karim Benzema",
+    "rating": 91
+  },
+  {
+    "pos": "ST",
+    "name": "Kylian Mbappe",
+    "rating": 91
+  },
+  {
+    "pos": "ST",
+    "name": "Robert Lewandowski",
+    "rating": 91
+  },
+  {
+    "pos": "ST",
+    "name": "Cristiano Ronaldo",
+    "rating": 90
+  },
+  {
+    "pos": "ST",
+    "name": "Harry Kane",
+    "rating": 89
+  },
+  {
+    "pos": "LW",
+    "name": "Neymar Jr",
+    "rating": 89
+  },
+  {
+    "pos": "LW",
+    "name": "Heung Min Son",
+    "rating": 89
+  },
+  {
+    "pos": "RW",
+    "name": "Lionel Messi",
+    "rating": 91
+  },
+  {
+    "pos": "RW",
+    "name": "Mohamed Salah",
+    "rating": 90
+  },
+  {
+    "pos": "CM",
+    "name": "Kevin De Bruyne",
+    "rating": 91
+  },
+  {
+    "pos": "LM",
+    "name": "Sadio Mané",
+    "rating": 89
+  },
+  {
+    "pos": "CDM",
+    "name": "N'Golo Kanté",
+    "rating": 89
+  },
+  {
+    "pos": "CDM",
+    "name": "Joshua Kimmich",
+    "rating": 89
+  },
+  {
+    "pos": "CDM",
+    "name": "Casemiro",
+    "rating": 89
+  },
+  {
+    "pos": "CB",
+    "name": "Virgil van Dijk",
+    "rating": 90
+  },
+  {
+    "pos": "GK",
+    "name": "Thibaut Courtois",
+    "rating": 90
+  },
+  {
+    "pos": "GK",
+    "name": "Manuel Neuer",
+    "rating": 90
+  },
+  {
+    "pos": "GK",
+    "name": "Jan Oblak",
+    "rating": 89
+  },
+  {
+    "pos": "GK",
+    "name": "Alisson",
+    "rating": 89
+  },
+  {
+    "pos": "GK",
+    "name": "Ederson",
+    "rating": 89
+  },
+];
