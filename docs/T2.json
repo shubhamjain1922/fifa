@@ -1,97 +1,222 @@
 var t2 = [
-    {
-        "pos": "GK",
-        "name": "Ederson",
-        "rating": 89
-    },
-    {
-        "pos": "GK",
-        "name": "Courtois",
-        "rating": 89
-    },
-    {
-        "pos": "GK",
-        "name": "Alisson",
-        "rating": 89
-    },
-    {
-        "pos": "GK",
-        "name": "Donnarumma",
-        "rating": 89
-    },
-    {
-        "pos": "CB",
-        "name": "Van Dijk",
-        "rating": 89
-    },
-    {
-        "pos": "CDM",
-        "name": "Casemiro",
-        "rating": 89
-    },
-    {
-        "pos": "CDM",
-        "name": "Kimmich",
-        "rating": 89
-    },
-    {
-        "pos": "RW\/RM",
-        "name": "M. Salah",
-        "rating": 89
-    },
-    {
-        "pos": "LW\/LM",
-        "name": "Heung Min Son",
-        "rating": 89
-    },
-    {
-        "pos": "LW\/LM",
-        "name": "Sadio Mane",
-        "rating": 89
-    },
-    {
-        "pos": "ST",
-        "name": "K.Benzema",
-        "rating": 89
-    },
-    {
-        "pos": "GK",
-        "name": "Navas",
-        "rating": 88
-    },
-    {
-        "pos": "CB",
-        "name": "Sergio Ramos",
-        "rating": 88
-    },
-    {
-        "pos": "CM",
-        "name": "Toni Kroos",
-        "rating": 88
-    },
-    {
-        "pos": "CAM",
-        "name": "B. Fernandes",
-        "rating": 88
-    },
-    {
-        "pos": "LW\/LM",
-        "name": "R. Sterling",
-        "rating": 88
-    },
-    {
-        "pos": "ST",
-        "name": "R.Lukaku",
-        "rating": 88
-    },
-    {
-        "pos": "ST",
-        "name": "E.Haaland",
-        "rating": 88
-    },
-    {
-        "pos": "ST",
-        "name": "L.Suarez",
-        "rating": 88
-    }
-]
+  {
+    "pos": "CF",
+    "name": "Paulo Dybala",
+    "rating": 86
+  },
+  {
+    "pos": "ST",
+    "name": "Erling Haaland",
+    "rating": 88
+  },
+  {
+    "pos": "ST",
+    "name": "Ciro Immobile",
+    "rating": 86
+  },
+  {
+    "pos": "ST",
+    "name": "Lautaro Martinez",
+    "rating": 86
+  },
+  {
+    "pos": "ST",
+    "name": "Romelu Lukaku",
+    "rating": 86
+  },
+  {
+    "pos": "LW",
+    "name": "Raheem Sterling",
+    "rating": 86
+  },
+  {
+    "pos": "LW",
+    "name": "Vinícius Júnior",
+    "rating": 86
+  },
+  {
+    "pos": "RW",
+    "name": "Riyad Mahrez",
+    "rating": 86
+  },
+  {
+    "pos": "CAM",
+    "name": "Bernardo Silva",
+    "rating": 88
+  },
+  {
+    "pos": "CAM",
+    "name": "Thomas Müller",
+    "rating": 87
+  },
+  {
+    "pos": "CAM",
+    "name": "Bruno Fernandes",
+    "rating": 86
+  },
+  {
+    "pos": "CM",
+    "name": "Luka Modric",
+    "rating": 88
+  },
+  {
+    "pos": "CM",
+    "name": "Toni Kroos",
+    "rating": 88
+  },
+  {
+    "pos": "CM",
+    "name": "Marco Verratti",
+    "rating": 87
+  },
+  {
+    "pos": "CM",
+    "name": "Frenkie de Jong",
+    "rating": 87
+  },
+  {
+    "pos": "CM",
+    "name": "Leon Goretzka",
+    "rating": 87
+  },
+  {
+    "pos": "CM",
+    "name": "Sergej Milinkovic-Savic",
+    "rating": 86
+  },
+  {
+    "pos": "CM",
+    "name": "Parejo",
+    "rating": 86
+  },
+  {
+    "pos": "CM",
+    "name": "Nicolò Barella",
+    "rating": 86
+  },
+  {
+    "pos": "CM",
+    "name": "Thiago",
+    "rating": 86
+  },
+  {
+    "pos": "LM",
+    "name": "Kingsley Coman",
+    "rating": 86
+  },
+  {
+    "pos": "CDM",
+    "name": "Fabinho",
+    "rating": 87
+  },
+  {
+    "pos": "CDM",
+    "name": "Rodrigo",
+    "rating": 87
+  },
+  {
+    "pos": "CDM",
+    "name": "Marcelo Brozovic",
+    "rating": 86
+  },
+  {
+    "pos": "CB",
+    "name": "Marquinhos",
+    "rating": 88
+  },
+  {
+    "pos": "CB",
+    "name": "Rúben Dias",
+    "rating": 88
+  },
+  {
+    "pos": "CB",
+    "name": "Kalidou Koulibaly",
+    "rating": 87
+  },
+  {
+    "pos": "CB",
+    "name": "Antonio Rüdiger",
+    "rating": 87
+  },
+  {
+    "pos": "CB",
+    "name": "Milan Škriniar",
+    "rating": 86
+  },
+  {
+    "pos": "CB",
+    "name": "Thiago Silva",
+    "rating": 86
+  },
+  {
+    "pos": "CB",
+    "name": "David Alaba",
+    "rating": 86
+  },
+  {
+    "pos": "CB",
+    "name": "Aymeric Laporte",
+    "rating": 86
+  },
+  {
+    "pos": "LB",
+    "name": "João Cancelo",
+    "rating": 88
+  },
+  {
+    "pos": "LB",
+    "name": "Andrew Robertson",
+    "rating": 87
+  },
+  {
+    "pos": "RB",
+    "name": "Trent Alexander-Arnold",
+    "rating": 87
+  },
+  {
+    "pos": "GK",
+    "name": "Keylor Navas",
+    "rating": 88
+  },
+  {
+    "pos": "GK",
+    "name": "Gianluigi Donnarumma",
+    "rating": 88
+  },
+  {
+    "pos": "GK",
+    "name": "ter Stegen",
+    "rating": 88
+  },
+  {
+    "pos": "GK",
+    "name": "Mike Maignan",
+    "rating": 87
+  },
+  {
+    "pos": "GK",
+    "name": "Hugo Lloris",
+    "rating": 87
+  },
+  {
+    "pos": "GK",
+    "name": "David De Gea",
+    "rating": 87
+  },
+  {
+    "pos": "GK",
+    "name": "Wojciech Szczesny",
+    "rating": 86
+  },
+  {
+    "pos": "GK",
+    "name": "Kevin Trapp",
+    "rating": 86
+  },
+  {
+    "pos": "GK",
+    "name": "Édouard Mendy",
+    "rating": 86
+  },
+];
