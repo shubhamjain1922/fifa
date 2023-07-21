@@ -1,152 +1,291 @@
 var t3 = [
- {
-  "pos": "GK",
-  "name": "Lloris",
-  "rating": 87
- },
- {
-  "pos": "GK",
-  "name": "Szczesny",
-  "rating": 87
- },
- {
-  "pos": "RB",
-  "name": "Trent Arnold",
-  "rating": 87
- },
- {
-  "pos": "CB",
-  "name": "Ruben Dias",
-  "rating": 87
- },
- {
-  "pos": "CB",
-  "name": "Marquinhos",
-  "rating": 87
- },
- {
-  "pos": "LB",
-  "name": "Andy Robertson",
-  "rating": 87
- },
- {
-  "pos": "CM",
-  "name": "Luka Modric",
-  "rating": 87
- },
- {
-  "pos": "CM",
-  "name": "Paul Pogba",
-  "rating": 87
- },
- {
-  "pos": "CM",
-  "name": "Marco Veratti",
-  "rating": 87
- },
- {
-  "pos": "CM",
-  "name": "F.De Jong",
-  "rating": 87
- },
- {
-  "pos": "CM",
-  "name": "Goretzka",
-  "rating": 87
- },
- {
-  "pos": "CAM",
-  "name": "Muller",
-  "rating": 87
- },
- {
-  "pos": "RW\/RM",
-  "name": "Jadon Sancho",
-  "rating": 87
- },
- {
-  "pos": "RW\/RM",
-  "name": "Di Maria",
-  "rating": 87
- },
- {
-  "pos": "RB",
-  "name": "Cancelo",
-  "rating": 86
- },
- {
-  "pos": "CB",
-  "name": "Mats Hummels",
-  "rating": 86
- },
- {
-  "pos": "CB",
-  "name": "Laporte",
-  "rating": 86
- },
- {
-  "pos": "CB",
-  "name": "Raphael Varane",
-  "rating": 86
- },
- {
-  "pos": "CB",
-  "name": "Koulibaly",
-  "rating": 86
- },
- {
-  "pos": "CB",
-  "name": "Chiellini",
-  "rating": 86
- },
- {
-  "pos": "LB",
-  "name": "Jordi Alba",
-  "rating": 86
- },
- {
-  "pos": "CDM",
-  "name": "Rodri",
-  "rating": 86
- },
- {
-  "pos": "CDM",
-  "name": "S. Busquets",
-  "rating": 86
- },
- {
-  "pos": "CDM",
-  "name": "Fabinho",
-  "rating": 86
- },
- {
-  "pos": "CM",
-  "name": "Parejo",
-  "rating": 86
- },
- {
-  "pos": "CM",
-  "name": "Thiago",
-  "rating": 86
- },
- {
-  "pos": "CAM",
-  "name": "B.Silva",
-  "rating": 86
- },
- {
-  "pos": "RW\/RM",
-  "name": "R. Mahrez",
-  "rating": 86
- },
- {
-  "pos": "LW\/LM",
-  "name": "K. Coman",
-  "rating": 86
- },
- {
-  "pos": "LW\/LM",
-  "name": "Insigne",
-  "rating": 86
- }
-]
+  {
+    "pos": "ST",
+    "name": "Gerard Moreno",
+    "rating": 85
+  },
+  {
+    "pos": "ST",
+    "name": "Jamie Vardy",
+    "rating": 85
+  },
+  {
+    "pos": "LW",
+    "name": "Phil Foden",
+    "rating": 85
+  },
+  {
+    "pos": "LW",
+    "name": "Luis Díaz",
+    "rating": 84
+  },
+  {
+    "pos": "LW",
+    "name": "Jack Grealish",
+    "rating": 84
+  },
+  {
+    "pos": "LW",
+    "name": "Jadon Sancho",
+    "rating": 84
+  },
+  {
+    "pos": "LW",
+    "name": "Lorenzo Insigne",
+    "rating": 84
+  },
+  {
+    "pos": "LW",
+    "name": "Eden Hazard",
+    "rating": 84
+  },
+  {
+    "pos": "RW",
+    "name": "Ángel Di María",
+    "rating": 84
+  },
+  {
+    "pos": "RW",
+    "name": "Hakim Ziyech",
+    "rating": 83
+  },
+  {
+    "pos": "RW",
+    "name": "Ousmane Dembélé",
+    "rating": 83
+  },
+  {
+    "pos": "RW",
+    "name": "Raphinha",
+    "rating": 83
+  },
+  {
+    "pos": "RW",
+    "name": "Marco Asensio",
+    "rating": 83
+  },
+  {
+    "pos": "RW",
+    "name": "Rafa",
+    "rating": 82
+  },
+  {
+    "pos": "RW",
+    "name": "Antony",
+    "rating": 82
+  },
+  {
+    "pos": "CAM",
+    "name": "Nabil Fekir",
+    "rating": 85
+  },
+  {
+    "pos": "CAM",
+    "name": "Marco Reus",
+    "rating": 85
+  },
+  {
+    "pos": "CAM",
+    "name": "Martin Ødegaard",
+    "rating": 84
+  },
+  {
+    "pos": "CAM",
+    "name": "Kai Havertz",
+    "rating": 84
+  },
+  {
+    "pos": "LM",
+    "name": "Yannick Carrasco",
+    "rating": 85
+  },
+  {
+    "pos": "LM",
+    "name": "Filip Kostić",
+    "rating": 85
+  },
+  {
+    "pos": "LM",
+    "name": "Leroy Sané",
+    "rating": 84
+  },
+  {
+    "pos": "RM",
+    "name": "Serge Gnabry",
+    "rating": 85
+  },
+  {
+    "pos": "RM",
+    "name": "Domenico Berardi",
+    "rating": 84
+  },
+  {
+    "pos": "RM",
+    "name": "Canales",
+    "rating": 84
+  },{
+    "pos": "RM",
+    "name": "Moussa Diaby",
+    "rating": 84
+  },
+  {
+    "pos": "RM",
+    "name": "Bukayo Saka",
+    "rating": 82
+  },
+  {
+    "pos": "RM",
+    "name": "Otávio",
+    "rating": 82
+  },
+  {
+    "pos": "CDM",
+    "name": "Sergio Busquets",
+    "rating": 85
+  },
+  {
+    "pos": "CB",
+    "name": "Matthijs de Ligt",
+    "rating": 85
+  },
+  {
+    "pos": "CB",
+    "name": "Niklas Sule",
+    "rating": 85
+  },
+  {
+    "pos": "CB",
+    "name": "Joel Matip",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Sergey Savic",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Leonardo Bonucci",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Lucas Hernandez",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Éder Militão",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Giorgio Chiellini",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Sergio Ramos",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Raphael Varane",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Alessandro Bastoni",
+    "rating": 84
+  },
+  {
+    "pos": "CB",
+    "name": "Mats Hummels",
+    "rating": 84
+  },
+  {
+    "pos": "LB",
+    "name": "Jordi Alba Ramos",
+    "rating": 85
+  },
+  {
+    "pos": "LB",
+    "name": "Marcos Acuña",
+    "rating": 85
+  },
+  {
+    "pos": "LB",
+    "name": "Theo Hernández",
+    "rating": 85
+  },
+  {
+    "pos": "LB",
+    "name": "Alphonso Davies",
+    "rating": 84
+  },
+  {
+    "pos": "LB",
+    "name": "Ferland Mendy",
+    "rating": 83
+  },
+  {
+    "pos": "LB",
+    "name": "Gayà",
+    "rating": 82
+  },
+  {
+    "pos": "RB",
+    "name": "Kyle Walker",
+    "rating": 85
+  },
+  {
+    "pos": "RB",
+    "name": "Carvajal",
+    "rating": 84
+  },
+  {
+    "pos": "RB",
+    "name": "Achraf Hakimi",
+    "rating": 84
+  },
+  {
+    "pos": "RB",
+    "name": "Kieran Trippier",
+    "rating": 84
+  },
+  {
+    "pos": "RB",
+    "name": "Jesús Navas",
+    "rating": 83
+  },
+  {
+    "pos": "RB",
+    "name": "Juan Cuadrado",
+    "rating": 83
+  },
+  {
+    "pos": "RB",
+    "name": "Ricardo Pereira",
+    "rating": 83
+  },
+  {
+    "pos": "LWB",
+    "name": "Angeliño",
+    "rating": 83
+  },
+  {
+    "pos": "LWB",
+    "name": "Leonardo Spinazzola",
+    "rating": 82
+  },
+  {
+    "pos": "RWB",
+    "name": "Reece James",
+    "rating": 84
+  },
+  {
+    "pos": "RWB",
+    "name": "Denzel Dumfries",
+    "rating": 82
+  },
+];
